@@ -8,8 +8,10 @@ body {
   font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
-/* Добавил блок ниже для уменьшения размера шрифта Заглавия (title). Переопределяет переменную ".project-name", имеющуюся в файле \_site\assets\css\style.css.
-   Как понимаю, это переопределение на самом сайте прописывается в файле "style.css.map". */
+/*
+Добавил блок ниже для уменьшения размера шрифта Заглавия (title). Переопределяет переменную ".project-name", имеющуюся в файле \_site\assets\css\style.css.
+Как понимаю, это переопределение на самом сайте прописывается в файле "style.css.map".
+*/
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
@@ -29,4 +31,29 @@ body {
     font-size: 1.50rem;
   }
 }
+
+/*
+Добавил блок ниже для уменьшения интервала после заголовков уровня h4. Их я использую в качестве заголовков для Блок цитат (Blockquote).
+Например: "Важная рекомендация", "Справочно", "Важная особенность" и т.п.
+В файле \_site\assets\css\style.css есть блок, определяющий глобальные свойства заголовковвсех уровней:
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #159957;
+}
+
+Я вынес сюда (в этот файл) переопределение (задание специфического) параметра "main-content" для h4.
+Откровением стало то, что значение параметра можно задать отрицательным.
+*/
+.main-content h4 {
+  margin-bottom: -0.75rem;
+}
+
 

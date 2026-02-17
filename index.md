@@ -121,7 +121,7 @@ QGIS работает на Windows, Mac&nbsp;OSX, Linux, Unix и Android, под
       title="Ссылка для загрузки установщика QGIS для Windows"
       target="_blank">
       <b>ссылке</b></a>.
-> *(Файл «QGIS-OSGeo4W-3.16.16-1-Setup-x86_64.exe»).*
+> (файл «QGIS-OSGeo4W-3.16.16-1-Setup-x86_64.exe»).
 >  
 > Установщик ГИС QGIS для ОС **macOS** можно скачать с сайта проекта QGIS по 
    <a href="https://qgis.org/ru/site/forusers/download.html" 
@@ -828,6 +828,7 @@ QGIS работает на Windows, Mac&nbsp;OSX, Linux, Unix и Android, под
 <br>
 
 🔼 [Вернуться к ОГЛАВЛЕНИЮ](#оглавление)
+
 
 
 

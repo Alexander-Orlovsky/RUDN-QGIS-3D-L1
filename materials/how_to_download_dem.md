@@ -48,8 +48,8 @@ permalink: /materials/how_to_download_dem.html
 
 **Шаблон прямой ссылки:**
 
-https://copernicus-dem-30m.s3.eu-central-1.amazonaws.com/
-Copernicus_DSM_COG_10_**N80**_00_**E014**_00_DEM/
+https://copernicus-dem-30m.s3.eu-central-1.amazonaws.com/<br>
+Copernicus_DSM_COG_10_**N80**_00_**E014**_00_DEM/<br>
 Copernicus_DSM_COG_10_**N80**_00_**E014**_00_DEM.tif
 
 
@@ -186,3 +186,4 @@ SRTM покрывает территорию, расположенную меж�
 <br>
 🔼 [Наверх](./how_to_download_dem.html)
 <br><br>
+
